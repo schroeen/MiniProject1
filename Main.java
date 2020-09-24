@@ -1,12 +1,10 @@
 /*
 Mini Project 1
-Group #_: Evan Schroeder, Damandeep Kaur, Jacob Knapke 
-Date: 9/28/20
+Group #8: Evan Schroeder, Damandeep Kaur, Jacob Knapke 
+Date: 9/24/20
 */
 import java.util.Random;
 import java.util.Scanner;
-
-import javax.lang.model.util.ElementScanner6;
 
 class Main {
   public static void main(String[] args) {
@@ -17,7 +15,7 @@ class Main {
 
     int num;
     int guess;
-    int tries=0;
+    int tries=1;
     System.out.println("Please enter any positive whole number: ");
      num = s.nextInt();
 
@@ -49,7 +47,6 @@ class Main {
   static void playGame(int theRN, int theNum)
   {
     System.out.println("Please guess a number between 0 and "+theNum);
-    
   }
   
 }
